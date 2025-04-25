@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 6, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -52,88 +52,114 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Hung, Nguyen Minh',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'https://www.linkedin.com/in/minhung/',
+    x: '',
+    substack: 'https://minhung.substack.com',
     researchGate: '',
-    facebook: '',
-    instagram: '',
+    facebook: 'https://www.facebook.com/holden.nguyen.6174/',
+    instagram: 'https://www.instagram.com/holden.nguyen.6174/',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'https://www.youtube.com/@holdennguyen6174',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: '',
+    stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://zaap.bio/Minhung',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'holdennguyen6174@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1g2OwN65XdlBXfDExH7zcTw5nPAJRcQ4b/view?usp=drive_link'
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
+    'AWS',
+    'Kubernetes',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Terraform',
+    'ArgoCD',
+    'Prometheus',
+    'Grafana',
+    'MongoDB',
+    'Node.js',
+    'Python',
+    'Golang',
+    'Rust',
+    'Java',
+    'AIAgent',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'OPSWAT',
+      position: 'Site Reliability Engineer',
+      from: 'May 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.opswat.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Intel',
+      position: 'Operation Engineer',
+      from: 'Mar 2020',
+      to: 'May 2022',
+      companyLink: 'https://www.intel.vn',
+    },
+    {
+      company: 'Intel',
+      position: 'Preventive Maintenance',
+      from: 'Aug 2019',
+      to: 'Mar 2020',
+      companyLink: 'https://www.intel.vn',
+    },
+    {
+      company: 'Intel',
+      position: 'Equipment Specialist',
+      from: 'Jan 2017',
+      to: 'Aug 2019',
+      companyLink: 'https://www.intel.vn',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Google AI Essentials',
+      body: 'Issued by Coursera',
+      year: 'September 2024',
+      link: 'https://www.credly.com/badges/5f87ab51-af40-4039-a4ef-30fcb0a2fa8c/public_url',
+    },
+    {
+      name: 'AWS Certified Solutions Architect – Associate',
+      body: 'Issued by Amazon Web Services Training and Certification',
+      year: 'December 2022',
+      link: 'https://www.credly.com/badges/db6f862c-7030-4951-8314-f1c698318c16/public_url',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Nguyen Tat Thanh University',
+      degree: 'Bachelor Degree Of Information Technology',
+      from: '2023',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Petrovietnam College',
+      degree: 'The Degree Of Associate in Mechanical',
+      from: '2016',
+      to: '2013',
+    },
+    {
+      institution: 'Hung Vuong High School for the Gifted',
+      degree: 'Highschool Diploma',
+      from: '2010',
+      to: '2013',
     },
   ],
   publications: [
@@ -158,8 +184,8 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'Minhung', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
