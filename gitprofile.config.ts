@@ -137,7 +137,7 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Nguyen Tat Thanh University (GPA: 3.5)',
+      institution: 'Nguyen Tat Thanh University (GPA: 3.49)',
       degree: 'Bachelor Degree Of Information Technology',
       from: '2023',
       to: 'Present',
