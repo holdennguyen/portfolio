@@ -158,8 +158,7 @@ const CONFIG = {
   publications: [
     {
       title: 'My Journey: From Mechanical Engineering to DevOps/SRE',
-      description: 'Hello! I\'m Holden (Hung) Nguyen. I\'m a DevOps/SRE engineer from Vietnam.\n\n' +
-        '🔭 After spending more than five years working in the mechanical engineering field at Intel Vietnam, I was focused on using LEAN principles and innovation to improve operational efficiency, I notice how much the world was being transformed by software, particularly in the mechanical industry. And that lead me into the world of IoT and its related concepts, including connectivity broadcasting, security, micro-services, and DevOps culture.',
+      description: '🔭 After spending more than five years working in the mechanical engineering field at Intel Vietnam, I was focused on using LEAN principles and innovation to improve operational efficiency, I notice how much the world was being transformed by software, particularly in the mechanical industry. And that lead me into the world of IoT and its related concepts, including connectivity broadcasting, security, micro-services, and DevOps culture.',
     },
     {
       title: 'Professional Growth in DevSecOps and Cloud Security',
