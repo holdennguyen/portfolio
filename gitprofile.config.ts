@@ -130,7 +130,7 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Nguyen Tat Thanh University',
+      institution: 'Nguyen Tat Thanh University (GPA: 3.5)',
       degree: 'Bachelor Degree Of Information Technology',
       from: '2023',
       to: 'Present',
@@ -150,22 +150,19 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'My Story',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Hello! I'm Holden (Hung) Nguyen. I'm a DevOps/SRE engineer from Vietnam.
+
+🔭 After spending more than five years working in the mechanical engineering field at Intel Vietnam, I decided it was time for a career change. During that time, I was focused on using LEAN principles and innovation to improve operational efficiency, I notice how much the world was being transformed by software, particularly in the mechanical industry. That realization led me to join an internal mentoring program in 2021, where I had the opportunity to meet with a principal engineer of Intel's IoT Group from the US. During our one-on-one meetings, we delved into the world of IoT and its related concepts, including connectivity broadcasting, security, micro-services, and DevOps culture. This experience was a turning point for me, as it inspired me to become a DevOps/SRE engineer and work towards growing into roles such as MLOps/DataOps/AIOps.
+
+🌱 This shift was more than a career pivot—it marked the beginning of my specialization in cutting-edge areas like DevSecOps. My successful transition culminated at OPSWAT Vietnam, where I excelled as an SRE, managing the Metadefender Cloud Platform/API. Here, my role not only deepened my expertise in cybersecurity and infrastructure but also underscored my continuous research and development within the software field.
+
+👯 One of the methods I've found to be particularly effective is sharing what I learn with others. By doing so, not only am I able to better organize my own knowledge, but I'm also able to communicate with others and reinforce my own understanding while correcting any misunderstandings along the way.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
