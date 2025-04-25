@@ -150,16 +150,38 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'My Story',
-      conferenceName: '',
-      journalName: '',
-      authors: '',
-      link: '',
+      title: 'My Journey: From Mechanical Engineering to DevOps/SRE',
+      conferenceName: 'Career Transition Story',
+      journalName: 'Personal Blog',
+      authors: 'Holden (Hung) Nguyen',
+      link: 'https://medium.com/@holdennguyen',
       description: 'Hello! I\'m Holden (Hung) Nguyen. I\'m a DevOps/SRE engineer from Vietnam.\n\n' +
-        '🔭 After spending more than five years working in the mechanical engineering field at Intel Vietnam, I decided it was time for a career change. During that time, I was focused on using LEAN principles and innovation to improve operational efficiency, I notice how much the world was being transformed by software, particularly in the mechanical industry. That realization led me to join an internal mentoring program in 2021, where I had the opportunity to meet with a principal engineer of Intel\'s IoT Group from the US. During our one-on-one meetings, we delved into the world of IoT and its related concepts, including connectivity broadcasting, security, micro-services, and DevOps culture. This experience was a turning point for me, as it inspired me to become a DevOps/SRE engineer and work towards growing into roles such as MLOps/DataOps/AIOps.\n\n' +
-        '🌱 This shift was more than a career pivot—it marked the beginning of my specialization in cutting-edge areas like DevSecOps. My successful transition culminated at OPSWAT Vietnam, where I excelled as an SRE, managing the Metadefender Cloud Platform/API. Here, my role not only deepened my expertise in cybersecurity and infrastructure but also underscored my continuous research and development within the software field.\n\n' +
-        '👯 One of the methods I\'ve found to be particularly effective is sharing what I learn with others. By doing so, not only am I able to better organize my own knowledge, but I\'m also able to communicate with others and reinforce my own understanding while correcting any misunderstandings along the way.',
+        '🔭 After spending more than five years working in the mechanical engineering field at Intel Vietnam, I decided it was time for a career change. During that time, I was focused on using LEAN principles and innovation to improve operational efficiency, I notice how much the world was being transformed by software, particularly in the mechanical industry. That realization led me to join an internal mentoring program in 2021, where I had the opportunity to meet with a principal engineer of Intel\'s IoT Group from the US. During our one-on-one meetings, we delved into the world of IoT and its related concepts, including connectivity broadcasting, security, micro-services, and DevOps culture. This experience was a turning point for me, as it inspired me to become a DevOps/SRE engineer and work towards growing into roles such as MLOps/DataOps/AIOps.',
     },
+    {
+      title: 'Professional Growth in DevSecOps and Cloud Security',
+      conferenceName: 'Technical Journey',
+      journalName: 'Career Highlights',
+      authors: 'Holden (Hung) Nguyen',
+      link: 'https://www.linkedin.com/in/minhung/',
+      description: '🌱 This shift was more than a career pivot—it marked the beginning of my specialization in cutting-edge areas like DevSecOps. My successful transition culminated at OPSWAT Vietnam, where I excelled as an SRE, managing the Metadefender Cloud Platform/API. Here, my role not only deepened my expertise in cybersecurity and infrastructure but also underscored my continuous research and development within the software field.',
+    },
+    {
+      title: 'Knowledge Sharing and Community Engagement',
+      conferenceName: 'Learning Philosophy',
+      journalName: 'Personal Development',
+      authors: 'Holden (Hung) Nguyen',
+      link: 'https://minhung.substack.com',
+      description: '👯 One of the methods I\'ve found to be particularly effective is sharing what I learn with others. By doing so, not only am I able to better organize my own knowledge, but I\'m also able to communicate with others and reinforce my own understanding while correcting any misunderstandings along the way.',
+    },
+    {
+      title: 'Exploring AI and Future Technologies',
+      conferenceName: 'Technology Trends',
+      journalName: 'Future Directions',
+      authors: 'Holden (Hung) Nguyen',
+      link: 'https://zaap.bio/Minhung',
+      description: '🚀 As technology continues to evolve, I\'m particularly excited about the intersection of DevOps/SRE practices with artificial intelligence and machine learning. My recent completion of the Google AI Essentials certification reflects my commitment to staying at the forefront of technological advancement. I\'m actively exploring how AI can enhance infrastructure management, automation, and security practices in modern cloud environments.',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {

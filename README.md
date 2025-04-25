@@ -699,7 +699,7 @@ const CONFIG = {
 };
 ```
 
-### Publications
+### My Story
 
 Provide your academic publishing in `publications`.
 
