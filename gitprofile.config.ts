@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['holdennguyen/kubernetes-install-cluster-with-kubeadm', 'holdennguyen/cicd-pipeline-java-webapp', 'holdennguyen/kasm-workspaces-single-server', 'holdennguyen/jenkins-setup-aws', 'holdennguyen/cloudsherlock', 'holdennguyen/vietcslab'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -59,9 +59,6 @@ const CONFIG = {
   social: {
     linkedin: 'https://www.linkedin.com/in/minhung/',
     substack: 'https://minhung.substack.com',
-    facebook: 'https://www.facebook.com/holden.nguyen.6174/',
-    instagram: 'https://www.instagram.com/holden.nguyen.6174/',
-    youtube: 'https://www.youtube.com/@holdennguyen6174',
     medium: 'https://medium.com/@holdennguyen',
     website: 'https://zaap.bio/Minhung',
     phone: '0912941050',
