@@ -93,6 +93,13 @@ const CONFIG = {
       companyLink: 'https://www.opswat.com',
     },
     {
+      company: 'Pursued CS education, built DevOps projects, trained in cloud-native tools, attended tech events, and volunteered teaching math to orphans.',
+      position: 'Gap Year',
+      from: 'Sep 2022',
+      to: 'May 2023',
+      companyLink: '',
+    },
+    {
       company: 'Intel',
       position: 'Operation Engineer',
       from: 'Mar 2020',
